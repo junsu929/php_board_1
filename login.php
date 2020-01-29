@@ -33,6 +33,9 @@
         #login-button{
             padding-top:5px;
         }
+        form{
+            margin-bottom:10px;
+        }
 
     </style>
 
@@ -45,14 +48,14 @@
             <div class="nav" id="nav_bar">
                 <div class="col-md-2"></div>
                 <div class="col-md-3">
-                    <a herf=""><strong>게시판</strong></a>
+                    <a herf="board.php"><strong>게시판</strong></a>
                 </div>
                 <div class="col-md-3">
-                    <a herf=""><strong>로그인</strong></a>
+                    <a herf="login.php"><strong>로그인</strong></a>
 
                 </div>
                 <div class="col-md-3">
-                    <a herf=""><strong>문의사항</strong></a>
+                    <a herf="question.php"><strong>문의사항</strong></a>
 
                 </div>
                 <div class="col-md-1"></div>
@@ -102,6 +105,9 @@
 
 
             </form>
+            <div class="row">
+                <a href="user_add.php"><p><strong> 회원가입 </strong></p></a>
+            </div>
 
 
         </div>

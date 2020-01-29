@@ -49,14 +49,14 @@
             <div class="nav" id="nav_bar">
                 <div class="col-md-2"></div>
                 <div class="col-md-3">
-                    <a herf=""><strong>게시판</strong></a>
+                    <a herf="board.php"><strong>게시판</strong></a>
                 </div>
                 <div class="col-md-3">
-                    <a herf=""><strong>로그인</strong></a>
+                    <a herf="login.php"><strong>로그인</strong></a>
 
                 </div>
                 <div class="col-md-3">
-                    <a herf=""><strong>문의사항</strong></a>
+                    <a herf="question.php"><strong>문의사항</strong></a>
 
                 </div>
                 <div class="col-md-1"></div>
@@ -69,11 +69,11 @@
         <!-- 로그인 폼 -->
         <div class="row" id="login">
             <label><strong> 회원가입 </strong></label>
-            <form method="POST" action="">
+            <form method="POST" action="user_add_action.php">
                 <div class="row" id="login-group">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <input class="form-control" type="text" placeholder="아이디">
+                        <input class="form-control" type="text" placeholder="아이디" name="id">
 
                     </div>
                     <div class="col-md-4"></div>
@@ -83,18 +83,7 @@
                 <div class="row" id="login-group">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <input class="form-control" type="password" placeholder="비밀번호">
-
-                    </div>
-                    <div class="col-md-4"></div>
-
-
-                </div>
-
-                <div class="row" id="login-group">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <input class="form-control" type="mail" placeholder="메일주소">
+                        <input class="form-control" type="password" placeholder="비밀번호" name="password">
 
                     </div>
                     <div class="col-md-4"></div>
@@ -105,7 +94,18 @@
                 <div class="row" id="login-group">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <input class="form-control" type="text" placeholder="이름">
+                        <input class="form-control" type="mail" placeholder="메일주소" name="email">
+
+                    </div>
+                    <div class="col-md-4"></div>
+
+
+                </div>
+
+                <div class="row" id="login-group">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="text" placeholder="이름" name="name">
 
                     </div>
                     <div class="col-md-4"></div>
