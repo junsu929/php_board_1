@@ -116,7 +116,7 @@
                 <div class="row" id="login-button">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <button type="button" class="btn btn-primary"> 회원가입 </button>
+                        <button type="submit" class="btn btn-primary"> 회원가입 </button>
 
                     </div>
                     <div class="col-md-4"></div>
